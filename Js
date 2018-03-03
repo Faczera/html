@@ -1,0 +1,32 @@
+var idade=prompt("Qual sua idade?");
+if(idade<15)
+{
+	alert("Você é uma criança, boçal!");
+}
+
+else
+{
+	alert("Você é adultão hein");
+}
+
+
+var numero=18;
+if((numero%2)==0)
+{
+	alert("par");
+}
+
+var passou=true;
+if(passou)
+{
+	alert("aprovado(a)");
+}
+
+
+var num=prompt("Entre com um número");
+if((num%2)==0);
+{
+	alert("Esse número é par");
+}
+
+
