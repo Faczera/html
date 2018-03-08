@@ -1,0 +1,73 @@
+// operadores lógicos and &&, or ||, not!
+// and &&
+
+var x=6;
+alert((x>=1) && (x<=10));
+
+var y=prompt("Entre com um numero ai lek");
+alert ((y>=1) && (y<=10));
+
+// operador lógico or ||
+
+var x=6;
+alert ((x>=1) || (x<=5));
+
+var x=prompt("Fala um numero brother");
+alert ((x>=1) || (x<=6));
+
+//not !
+
+var a=8;
+alert(!(a>=1));
+
+var a=prompt("Fala um numero denovo (to cansando disso ja)");
+alert(!(a>=9));
+
+// operador ternario 
+// expressao?verdadeiro:falso
+
+var idade=prompt("Qual sua idade?");
+var x=(idade>=18)?"Maior de idade":"Menor de idade";
+alert (x);
+
+//operador delete - remover um atributo do objeto
+
+Pessoa={
+	
+	nome:"Vitão del souza"
+
+}
+	
+	
+alert(Pessoa.nome);
+
+delete Pessoa.nome;
+
+alert(Pessoa.nome);
+
+
+// opereitor in - indica se existe a propriedade especificada.
+
+Pessoa={
+	nome:"Ronaldo"
+	
+}
+
+alert("nome" in Pessoa);
+
+alert("email" in Pessoa);
+
+// operador this - mostra o titulo da pagina
+
+alert(this.document.title);
+
+//parseInt 
+var num1=parseInt(prompt("Entre com o primeiro"));
+var num2=parseInt(prompt("Entre com o segundo"));
+var soma=num1+num2;
+alert(soma);
+
+//método confirm()
+confirm("tem certeza disso?");
+
+
