@@ -1,0 +1,47 @@
+//estrutura return
+
+function dividir(x,y)
+{
+	return x/y
+}
+alert(dividir(12,2));
+
+
+function dividir(x,y)
+{
+	return x/y
+}
+var x=prompt("Entre com um valor");
+var y=prompt("Entre com o valor");
+alert (dividir(x,y));
+
+//abs
+
+valor=Math.abs(-123);
+alert(valor);
+
+//max - retorna maior valor / min menor
+
+valor=Math.max(5,10);
+alert(valor);
+
+
+//pow - potência , número elevado
+
+var valor=Math.pow(4,2);
+alert(valor);
+
+//round - para arredondar, ceil arredonda para cima, floor sempre pra baixo
+
+var valor=Math.round(13.2);
+alert(valor);
+
+
+//sqrt - raiz quadrada
+
+
+//metodo get do objeto date
+
+var data=new Date();
+alert(data.getDay());//retorna o dia atual, começando de um vetor 0
+
