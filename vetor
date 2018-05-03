@@ -1,0 +1,24 @@
+var paises=new Array("Brasil", "Russia", "China");
+alert(paises);
+
+alert (paises[0]);
+
+
+for(i=0;i<3;i++)
+{
+alert(paises[i]);
+}
+
+var paises=new Array("Brasil", "Russia", "China");
+alert(paises.indexOf("Russia"));
+
+//sintaxe literal
+
+var paises=["Brasil", "Russia", "China"];
+alert(paises);
+
+var s="açai";
+
+alert(s.length);
+
+alert(s[2]);
