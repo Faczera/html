@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Aula 20 - Formulário com CSS</title>
+<meta charset="UTF-8">
+</head>
+<body bgcolor=#CECECE>
+<center> <b> <pre> <font size=50> Cadastro </center></pre></font>
+<center>
+<script>
+var hoje=new Date();
+var dia=hoje.getDate();
+var mes=hoje.getMonth()+1;
+var ano=hoje.getYear()+1900;
+document.write("<h3>Hoje:" + dia + "/" +mes + "/" +ano + "</h3>");
+</script>
+<input type="button" value="Digitar nome" onclick="nome=prompt('Seu Nome', '')"/>
+<input type="button" value="Digitar Email" onclick="email=prompt('Email:', '')"/>
+<input type="button" value="Cadastrar" onclick="escrever(this.form.Area)"/>
+<p><textarea rows=20 cols=40 name="Area"> </textarea>
+
+
+</center>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
